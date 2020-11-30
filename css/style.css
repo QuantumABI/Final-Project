@@ -64,11 +64,14 @@ h2 {
 div p {
   line-height: 2.5;
   font-size: 20px;
-  text-indent: 40px;
+  padding: 10px;
+}
+
+div p b {
+  color: #e63946;
 }
 
 .contact-us {
-  align-content: center;
   text-align: center;
 }
 
@@ -76,6 +79,38 @@ div p {
   padding: 10px 0;
   font-weight: 400;
   font-size: 1.5em;
+}
+
+.reference {
+  box-sizing: border-box;
+}
+
+.reference p a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.reference p a:hover {
+  color: #e63946;
+  text-decoration: underline;
+}
+
+.top {
+  background-color: #1d3557;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: right;
+}
+
+.top p a {
+  color: white;
+  font-size: 26px;
+}
+
+.top p a:hover {
+  color: #e63946;
 }
 
 @media all and (max-width: 700px) {
@@ -89,9 +124,5 @@ div p {
   nav .menu-bar .name {
     text-align: center;
     padding: 20px;
-  }
-
-  div p {
-    text-indent: 25px;
   }
 }
