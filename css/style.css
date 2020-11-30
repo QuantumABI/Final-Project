@@ -101,12 +101,13 @@ div p b {
   position: absolute;
   left: 0;
   right: 0;
-  text-align: right;
+  text-align: center;
 }
 
 .top p a {
   color: white;
   font-size: 26px;
+  text-decoration: none;
 }
 
 .top p a:hover {
