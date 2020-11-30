@@ -7,7 +7,7 @@
 
 nav {
   background-color: #1d3557;
-  padding: 30px;
+  padding: 40px;
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul li {
 .menu-bar .name {
   flex: 1;
   text-align: left;
-  font-size: 2.8em;
+  font-size: 3em;
   color: #a8dadc;
 }
 
@@ -37,11 +37,45 @@ nav ul li a {
 
 nav ul li a:link {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2em;
 }
 
 nav ul li a:hover {
   color: #e63946;
+}
+
+div {
+  margin: 2em;
+  padding: 1em;
+}
+
+div h1,
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.problem h1 {
+  font-weight: 600;
+}
+
+div p {
+  line-height: 2.5;
+  font-size: 20px;
+  text-indent: 40px;
+}
+
+.contact-us {
+  align-content: center;
+  text-align: center;
+}
+
+.contact-us h3 {
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 @media all and (max-width: 700px) {
@@ -56,27 +90,8 @@ nav ul li a:hover {
     text-align: center;
     padding: 20px;
   }
-}
 
-div {
-  margin: 3.5em;
-  padding: 2em;
-  border: 2px solid black;
-}
-
-div h1,
-h2 {
-  text-align: center;
-  padding: 15px 0px;
-}
-
-div p {
-  text-indent: 40px;
-  line-height: 2.5;
-  text-align: center;
-}
-
-.contact-us {
-  align-content: center;
-  text-align: center;
+  div p {
+    text-indent: 25px;
+  }
 }
